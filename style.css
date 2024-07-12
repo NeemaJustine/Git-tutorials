@@ -1,0 +1,156 @@
+header {
+  background-color: rgb(52, 51, 51);
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.nav-link:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+.nav-link span {
+  color: orangered;
+}
+.styled-image {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ddd;
+  margin: 10px;
+  padding: 5px;
+}
+.contact-me-btn {
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.8rem o.5rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact-me-btn:hover {
+  background-color: orangered;
+}
+.home {
+  height: 100vh;
+  background-color: rgb(250, 247, 247);
+  padding: 5rem 3rem;
+}
+h1 {
+  width: 400px;
+  height: 80px;
+  font-size: 200%;
+  padding-left: 10rem;
+}
+p {
+  width: 500px;
+  height: 100px;
+  padding-left: 10rem;
+}
+.home-btn-container {
+  padding: 2rem 10rem;
+  text-align: justify;
+  font-size: 180%;
+  justify-content: space-around;
+}
+.btn-1 {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  padding: 10px 30px;
+}
+.btn-1:hover {
+  background-color: white;
+  color: black;
+}
+.btn-2 {
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  padding: 10px 30px;
+}
+.btn-2:hover {
+  background-color: white;
+  color: black;
+}
+.portfolio {
+  background-color: rgb(61, 60, 60);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  padding-left: 200px;
+}
+section h1 {
+  text-align: right;
+}
+.contact {
+  background-color: rgb(250, 247, 247);
+  padding-left: 200px;
+  height: 80vh;
+}
+.contact-form-container {
+  color: rgb(55, 54, 54);
+  padding-left: 300px;
+}
+
+footer {
+  background-color: rgb(61, 60, 60);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+}
+button {
+  background-color: orangered;
+  padding: 15px 50px;
+  border-radius: 0.8rem;
+  font-size: larger;
+  color: white;
+}
+div.contact-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(49, 49, 49, 0.1);
+  background-color: black;
+  color: white;
+  font-size: larger;
+}
+
+.home img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.input-label-container {
+  background-color: white;
+  padding: 15px 50px;
+  color: black;
+}
