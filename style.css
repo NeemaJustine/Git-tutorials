@@ -26,6 +26,18 @@ ul {
   text-decoration: none;
   font-weight: bold;
   justify-content: space-between;
+  font-size: x-large;
+}
+.contact-me {
+  color: black;
+  background-color: white;
+  border-radius: 0.8rem;
+  margin-right: 50px;
+  font-size: x-large;
+}
+.contact-me:hover {
+  background-color: orangered;
+  color: white;
 }
 .nav-link:hover {
   color: orangered;
@@ -34,30 +46,7 @@ ul {
 .nav-link span {
   color: orangered;
 }
-.styled-image {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #ddd;
-  margin: 10px;
-  padding: 5px;
-}
-.contact-me-btn {
-  background-color: white;
-  color: black;
-  border-radius: 2rem;
-  padding: 0.8rem o.5rem;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-}
-.contact-me-btn:hover {
-  background-color: orangered;
-}
-.home {
-  height: 100vh;
-  background-color: rgb(250, 247, 247);
-  padding: 5rem 3rem;
-}
+
 h1 {
   width: 400px;
   height: 80px;
@@ -107,6 +96,9 @@ p {
 section h1 {
   text-align: right;
 }
+.home-content {
+  display: inline-block;
+}
 .contact {
   background-color: rgb(250, 247, 247);
   padding-left: 200px;
@@ -143,11 +135,13 @@ div.contact-form-container {
   font-size: larger;
 }
 
-.home img {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
+.my-pic {
+  width: 360px;
+  height: 400px;
   border-radius: 50%;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 250px;
 }
 .input-label-container {
   background-color: white;
